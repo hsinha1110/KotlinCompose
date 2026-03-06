@@ -8,6 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.himanshusinha.firstapp.jetpackcompose.AlertDialogExample
 import com.himanshusinha.firstapp.jetpackcompose.RememberSaveableExample
 import com.himanshusinha.firstapp.ui.theme.FirstAppTheme
 
@@ -16,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RememberSaveableExample()
+            AlertDialogExample()
         }
     }
 }
