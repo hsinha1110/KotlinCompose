@@ -8,7 +8,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.himanshusinha.firstapp.jetpackcompose.c10_navigation.NavGraph
+import com.himanshusinha.firstapp.jetpackcompose.NestedLazyLists
+import com.himanshusinha.firstapp.jetpackcompose.TypesOfItem
 import com.himanshusinha.firstapp.ui.theme.FirstAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            NavGraph()
+            TypesOfItem()
          }
     }
 }

@@ -81,7 +81,7 @@ fun OutlinedTextFieldExample() {
     var name by remember { mutableStateOf("") }
 
     OutlinedTextField(
-        value = name,   // ✅ state use karo
+        value = name,
         onValueChange = { name = it },
 
         modifier = Modifier.padding(top = 70.dp, start = 20.dp),
