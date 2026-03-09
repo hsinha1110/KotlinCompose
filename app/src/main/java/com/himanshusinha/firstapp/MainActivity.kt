@@ -7,15 +7,17 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.himanshusinha.firstapp.jetpackcompose.ShowSnackBar
+import com.himanshusinha.firstapp.jetpackcompose.ToastExample
 import com.himanshusinha.firstapp.ui.theme.FirstAppTheme
-import com.himanshusinha.firstapp.jetpackcompose.jetpackcomposemissionandroid.jetpackcompose.c13_navigation_bar.NavbarNavigation
 
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            NavbarNavigation()
+            ShowSnackBar()
+            ToastExample()
         }
     }
 }

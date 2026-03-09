@@ -29,9 +29,7 @@ fun MyNavBar(navController: NavHostController, key: String) {
     )
 
     NavigationBar {
-
         navItems.forEach { item ->
-
             NavigationBarItem(
                 selected = item.title == key,
                 onClick = {
